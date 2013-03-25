@@ -2,16 +2,21 @@ var drawCells = require("../canvas.js")
 var MeshLayout = require("simplicial-layout")
 
 //Create layout
-//var layout = new MeshLayout([[0,1,2],[2,3,6],[1,4,7],[3,4,5]], 2, {radius:100.0})
+var cells = [[0,1,2],[2,3,6],[1,4,7],[3,4,5]]
+
+//var cells = [[0,1,2,3,4],[3,4,5],[5,6],[6,7]]
+
+var layout = new MeshLayout(cells, 2, {radius:50.0, lo:[0,0], hi:[500,500]})
 //var layout = new MeshLayout([[0,1,2,3,4,5]], 2, {radius:100.0})
 //var layout = new MeshLayout([[0,1,2], [2,3,4]], 2, {radius:100.0})
-var layout = new MeshLayout([[0,1,2], [2,3,4]], 2, {radius:100.0})
+//var layout = new MeshLayout([[0,1,2], [2,3,4]], 2, {radius:100.0})
 
-
+/*
 for(var i=0; i<layout.positions.length; ++i) {
   layout.positions[i][0] += 250
   layout.positions[i][1] += 250
 }
+*/
 
 //Create a canvas
 var canvas = document.createElement("canvas")

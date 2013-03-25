@@ -31,7 +31,14 @@ function drawComplex(context, cells, positions, options) {
       context.fill()
     }
   }
-
+  for(var i=0; i<positions.length; ++i) {
+    var p = positions[i]
+    context.fillStyle = "rgba(0,0,0,1)"
+    context.beginPath()
+    context.arc(p[0], p[1], 3, 0, 2.0*Math.PI)
+    context.closePath()
+    context.fill()
+  }
 }
 
 module.exports = drawComplex
