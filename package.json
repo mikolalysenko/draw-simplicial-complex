@@ -8,7 +8,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "simplicial-layout": "~0.0.0",
+    "simplicial-layout": "~0.0.1",
     "raf": "~0.0.1"
   },
   "scripts": {
