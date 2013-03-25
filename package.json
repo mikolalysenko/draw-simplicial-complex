@@ -1,0 +1,30 @@
+{
+  "name": "draw-simplicial-complex",
+  "version": "0.0.0",
+  "description": "Draws a simplicial complex to a canvas element",
+  "main": "canvas.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "simplicial-layout": "~0.0.0",
+    "raf": "~0.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/draw-simplicial-complex.git"
+  },
+  "keywords": [
+    "simplicial",
+    "complex",
+    "draw"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "BSD",
+  "gitHead": "65b6cd65988e114b9477a350438b0f0e1f20e31b",
+  "readmeFilename": "README.md"
+}
